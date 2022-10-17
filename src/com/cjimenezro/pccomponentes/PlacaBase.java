@@ -1,6 +1,6 @@
 package com.cjimenezro.pccomponentes;
 
-public class Placa_Base {
+public class PlacaBase {
 
     private Integer id;
 
