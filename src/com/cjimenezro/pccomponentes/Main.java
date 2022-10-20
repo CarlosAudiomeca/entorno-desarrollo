@@ -78,6 +78,102 @@ public class Main {
         System.out.println(kingston.getModelo());
         System.out.println(kingston.getCapacidad());
 
+        FuenteAlimentacion corsairFuente = new FuenteAlimentacion();
+
+        corsairFuente.setId(1);
+        corsairFuente.setMarca("Corsair");
+        corsairFuente.setModelo("RM750 80 Plus Gold ");
+        corsairFuente.setVoltaje("100-240 V");
+
+        System.out.println(corsairFuente.getId());
+        System.out.println(corsairFuente.getMarca());
+        System.out.println(corsairFuente.getModelo());
+        System.out.println(corsairFuente.getVoltaje());
+
+        TarjetaGrafica nvidiaRtx3060Ti = new TarjetaGrafica();
+
+        nvidiaRtx3060Ti.setId(1);
+        nvidiaRtx3060Ti.setMarca("Nvidia");
+        nvidiaRtx3060Ti.setModelo("RTX 3060 Ti ");
+        nvidiaRtx3060Ti.setVram("8 GB");
+
+        System.out.println(nvidiaRtx3060Ti.getId());
+        System.out.println(nvidiaRtx3060Ti.getMarca());
+        System.out.println(nvidiaRtx3060Ti.getModelo());
+        System.out.println(nvidiaRtx3060Ti.getVram());
+
+        TarjetaSonido creativeSound = new TarjetaSonido();
+
+        creativeSound.setId(1);
+        creativeSound.setMarca("Creative Sound");
+        creativeSound.setModelo("Blaster Audigy ");
+        creativeSound.setConexion("PCI Express");
+
+        System.out.println(creativeSound.getId());
+        System.out.println(creativeSound.getMarca());
+        System.out.println(creativeSound.getModelo());
+        System.out.println(creativeSound.getConexion());
+
+        DVD lg = new DVD();
+
+        lg.setId(1);
+        lg.setMarca("LG");
+        lg.setModelo("Grabadora Ultra Slim Externa ");
+        lg.setVelocidad("24x");
+
+        System.out.println(lg.getId());
+        System.out.println(lg.getMarca());
+        System.out.println(lg.getModelo());
+        System.out.println(lg.getVelocidad());
+
+        Monitor msi = new Monitor();
+
+        msi.setId(1);
+        msi.setMarca("MSI");
+        msi.setModelo("Optix g24c4 ");
+        msi.setResolucion("1920 x 1080");
+
+        System.out.println(msi.getId());
+        System.out.println(msi.getMarca());
+        System.out.println(msi.getModelo());
+        System.out.println(msi.getResolucion());
+
+        Teclado aukey = new Teclado();
+
+        aukey.setId(1);
+        aukey.setMarca("Aukey");
+        aukey.setModelo("KM-G14 ");
+        aukey.setTipo("Mecanico");
+
+        System.out.println(aukey.getId());
+        System.out.println(aukey.getMarca());
+        System.out.println(aukey.getModelo());
+        System.out.println(aukey.getTipo());
+
+        Raton logitech = new Raton();
+
+        logitech.setId(1);
+        logitech.setMarca("Logitech");
+        logitech.setModelo("G403 Hero ");
+        logitech.setDpi("25600 dpi");
+
+        System.out.println(logitech.getId());
+        System.out.println(logitech.getMarca());
+        System.out.println(logitech.getModelo());
+        System.out.println(logitech.getDpi());
+
+        Altavoces tempest = new Altavoces();
+
+        tempest.setId(1);
+        tempest.setMarca("Tempest");
+        tempest.setModelo("M10 Hero 2.0 ");
+        tempest.setConectividad("USB");
+
+        System.out.println(tempest.getId());
+        System.out.println(tempest.getMarca());
+        System.out.println(tempest.getModelo());
+        System.out.println(tempest.getConectividad());
+
         SetupPC setupPC = new SetupPC();
 
         setupPC.setId(1);
