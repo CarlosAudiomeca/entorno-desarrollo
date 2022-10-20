@@ -174,16 +174,40 @@ public class Main {
         System.out.println(tempest.getModelo());
         System.out.println(tempest.getConectividad());
 
+        /**
         SetupPC setupPC = new SetupPC();
 
         setupPC.setId(1);
         setupPC.setProcesador(amd);
+        setupPC.setPlacaBase(asus);
+        setupPC.setRam(corsair);
+        setupPC.setTorre(nfortec);
+        setupPC.setVentilador(cooler);
+        setupPC.setDisco(kingston);
+        setupPC.setFuenteAlimentacion(corsairFuente);
+        setupPC.setTarjetaGrafica(nvidiaRtx3060Ti);
+        setupPC.setTarjetaSonido(creativeSound);
+        setupPC.setDvd(lg);
+        setupPC.setMonitor(msi);
+        setupPC.setTeclado(aukey);
+        setupPC.setRaton(logitech);
+        setupPC.setAltavoces(tempest);
 
         System.out.println(setupPC.getId());
         System.out.println(setupPC.getProcesador().getMarca());
-
+        System.out.println(setupPC.getPlacaBase().getMarca());
+        System.out.println(setupPC.getRam().getMarca());
+        System.out.println(setupPC.getTorre().getMarca());
+        System.out.println(setupPC.getVentilador().getMarca());
+        System.out.println(setupPC.getDisco().getMarca());
+        System.out.println(setupPC.getFuenteAlimentacion().getMarca());
+        System.out.println(setupPC.getTarjetaGrafica().getMarca());
+        System.out.println(setupPC.getTarjetaSonido().getMarca());
+        System.out.println(setupPC.getDvd().getMarca());
+        System.out.println(setupPC.getMonitor().getMarca());
+        System.out.println(setupPC.getTeclado().getMarca());
+        System.out.println(setupPC.getRaton().getMarca());
+        System.out.println(setupPC.getAltavoces().getMarca());
+        **/
     }
-
-
-
 }
