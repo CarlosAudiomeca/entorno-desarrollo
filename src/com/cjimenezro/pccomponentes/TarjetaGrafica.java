@@ -16,7 +16,6 @@ public class TarjetaGrafica {
     public Integer getId(){
         return id;
     }
-
     public void setId(Integer id){
         this.id= id;
     }
@@ -24,7 +23,6 @@ public class TarjetaGrafica {
     public String getMarca(){
         return marca;
     }
-
     public void setMarca(String marca){
         this.marca = marca;
     }
@@ -32,10 +30,15 @@ public class TarjetaGrafica {
     public String getModelo(){
         return modelo;
     }
-
     public void setModelo(String modelo){
         this.modelo= modelo;
     }
 
+    public String getVram(){
+        return vram;
+    }
+    public void setVram(String vram){
+        this.vram = vram;
+    }
 
 }

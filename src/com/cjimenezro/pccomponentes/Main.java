@@ -18,13 +18,13 @@ public class Main {
         System.out.println(amd.getMarca());
         System.out.println(amd.getFabricante());
 
-        Procesador pentium = new Procesador();
-        pentium.setId(2);
-        pentium.setMarca("i7");
-        pentium.setFabricante("Intel");
+        SetupPC setupPC = new SetupPC();
 
-        System.out.println(pentium.getMarca());
-        System.out.println(pentium.getFabricante());
+        setupPC.setId(1);
+        setupPC.setProcesador(amd);
+
+        System.out.println(setupPC.getId());
+        System.out.println(setupPC.getProcesador().getMarca());
 
     }
 

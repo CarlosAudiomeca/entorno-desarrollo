@@ -1,18 +1,13 @@
 package com.cjimenezro.pccomponentes;
 
-import com.sun.xml.internal.ws.api.ha.StickyFeature;
-
-import javax.swing.*;
-
-public class RAM {
-
+public class Ventilador {
     private Integer id;
 
     private String marca;
 
     private String modelo;
 
-    private String velocidad;
+    private String tipo;
 
     /**
      * Funciones
@@ -39,13 +34,10 @@ public class RAM {
         this.modelo = modelo;
     }
 
-    public String getVelocidad(){
-        return velocidad;
+    public String getTipo(){
+        return tipo;
     }
-    public void setVelocidad(String velocidad){
-        this.velocidad=velocidad;
+    public void setTipo(String tipo){
+        this.tipo = tipo;
     }
-
-
-
 }

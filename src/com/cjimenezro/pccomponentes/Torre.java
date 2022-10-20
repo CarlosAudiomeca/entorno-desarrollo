@@ -1,10 +1,6 @@
 package com.cjimenezro.pccomponentes;
 
-import com.sun.xml.internal.ws.api.ha.StickyFeature;
-
-import javax.swing.*;
-
-public class RAM {
+public class Torre {
 
     private Integer id;
 
@@ -12,7 +8,7 @@ public class RAM {
 
     private String modelo;
 
-    private String velocidad;
+    private String conexiones;
 
     /**
      * Funciones
@@ -39,13 +35,10 @@ public class RAM {
         this.modelo = modelo;
     }
 
-    public String getVelocidad(){
-        return velocidad;
+    public String getConexiones(){
+        return conexiones;
     }
-    public void setVelocidad(String velocidad){
-        this.velocidad=velocidad;
+    public void setConexiones(String conexiones){
+        this.conexiones = conexiones;
     }
-
-
-
 }
