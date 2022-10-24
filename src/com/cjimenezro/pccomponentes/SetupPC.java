@@ -1,5 +1,8 @@
 package com.cjimenezro.pccomponentes;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class SetupPC {
     private Integer id;
 
@@ -7,7 +10,7 @@ public class SetupPC {
 
     private PlacaBase placaBase;
 
-    private RAM ram;
+    private List <RAM> ram = new ArrayList<>();
 
     private Torre torre;
 
@@ -56,11 +59,11 @@ public class SetupPC {
         this.placaBase = placaBase;
     }
 
-    public RAM getRam (){
-        return ram;
+    public void addRAM(RAM ram){
+        this.ram.add(ram);
     }
-    public void setRam(RAM ram){
-        this.ram = ram;
+    public List<RAM> getRam(){
+        return this.ram;
     }
 
     public Torre getTorre(){

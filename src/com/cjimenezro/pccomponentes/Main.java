@@ -174,13 +174,13 @@ public class Main {
         System.out.println(tempest.getModelo());
         System.out.println(tempest.getConectividad());
 
-        /**
+
         SetupPC setupPC = new SetupPC();
 
         setupPC.setId(1);
         setupPC.setProcesador(amd);
         setupPC.setPlacaBase(asus);
-        setupPC.setRam(corsair);
+        setupPC.addRAM(corsair);
         setupPC.setTorre(nfortec);
         setupPC.setVentilador(cooler);
         setupPC.setDisco(kingston);
@@ -196,7 +196,7 @@ public class Main {
         System.out.println(setupPC.getId());
         System.out.println(setupPC.getProcesador().getMarca());
         System.out.println(setupPC.getPlacaBase().getMarca());
-        System.out.println(setupPC.getRam().getMarca());
+        System.out.println(setupPC.getRam());
         System.out.println(setupPC.getTorre().getMarca());
         System.out.println(setupPC.getVentilador().getMarca());
         System.out.println(setupPC.getDisco().getMarca());
@@ -208,6 +208,6 @@ public class Main {
         System.out.println(setupPC.getTeclado().getMarca());
         System.out.println(setupPC.getRaton().getMarca());
         System.out.println(setupPC.getAltavoces().getMarca());
-        **/
+
     }
 }
